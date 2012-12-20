@@ -1,0 +1,71 @@
+._textListContent{
+	position:relative;
+	width:645px;
+	height:350px;
+	overflow:hidden;
+}
+
+._textListBox{
+	width:616px;
+	position:absolute;
+	top:-50px;
+	left:0px;
+}
+._textListBox a{display:inline-block;color:#fff;}
+._textListSplitBox{
+	background: url(../../plug/textList/images/scroll_pole.png); 
+	width:2px;
+	height:350px;
+	position:absolute;
+	right:15px;
+	top:0px;
+	display:none;
+}
+._textListSplitBar{
+	position:absolute;
+	left:-21px;
+	top:0px;
+	display:block;
+	background: url(../../plug/textList/images/scroll_light.png) no-repeat; 
+	width:47px;
+	height:56px;
+}
+._textListItem0{
+	height:50px;
+}
+._textListItem{
+	height:50px;
+	width:616px;
+	overflow:hidden;
+	color:#fff;
+	line-height:50px;
+	font-size:20px;
+	position:relative;
+	background: url(../images/opt_btn01a.png) no-repeat left bottom;
+}
+._textListCurItem{
+	height:50px;
+	width:616px;
+	overflow:hidden;
+	color:#fff;
+	background: url(../images/opt_btn01b.png) no-repeat left bottom;
+	line-height:50px;
+	font-size:20px;
+	position:relative;
+}
+
+.name{
+	float:left;
+	width:30px;
+	padding-left:25px;
+	width:300px;
+}
+.type{
+	float:left;
+	width:200px;
+}
+.icon{
+	float:left;
+	width:100px;
+}
+.icon img{padding-top:10px;}

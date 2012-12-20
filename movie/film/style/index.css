@@ -1,0 +1,95 @@
+.content .title{
+	height:50px;
+	color:#fff;
+	font-size:32px;
+	line-height:60px;
+	overflow:hidden;
+}
+.content .box{
+	clear:both;
+	width:880px;
+	height:310px;
+	overflow:hidden;
+}
+
+.content .box .boxLeft{
+	float:left;
+	width:250px;
+	height:350px;
+	position:relative;
+}
+
+.content .box .boxLeft .icon{
+	margin-bottom:5px;
+	background: url(../images/cover_mask_03.png);
+	width:240px; 
+	height:280px;
+	
+}
+.content .box .boxLeft  .icon img{
+	width:240px; 
+	height:280px;
+	padding:7px 5px;
+}
+.content .box  .boxRight{
+	float:left;
+	width:610px;
+	margin-left:20px;
+}
+
+.desInfo{
+	font-size:18px;
+	line-height:24px;
+	color:#ffc;
+	padding-left:8px;
+	height:32px;
+}
+.desInfo2{
+	font-size:18px;
+	line-height:30px;
+	color:#ffc;
+	height:100px;
+	overflow:hidden;
+	padding-left:8px;
+}
+.desSplit{
+	height:2px;
+	background: url(../images/split_bg.png) no-repeat; 
+	margin:10px 5px;
+	width:611px;
+	overflow:hidden;
+}
+
+.content .listBox{
+	width:895px;
+	height:168px;
+	display:none;
+}
+
+.btn{width:182px;height:42px;margin-left:700px;margin-top:50px;}
+
+.btn a:focus{background:url(../images/opt_btn06b.png) no-repeat;} 
+.btn a{
+	width:182px;height:42px;
+	text-align:center;
+	display:block;
+	TEXT-DECORATION:none;
+	background:url(../images/opt_btn06a.png) no-repeat;
+	color:#fff;
+	line-height:42px;
+}
+
+.fav{width:182px;height:42px;position:absolute;left:820px;bottom:118px;display:none;}
+
+.fav a:focus{background:url(../images/vshow_btn01b.png) no-repeat;} 
+.fav a{
+	width:182px;height:42px;
+	text-align:center;
+	display:block;
+	TEXT-DECORATION:none;
+	background:url(../images/vshow_btn01a.png) no-repeat;
+	color:#fff;
+	line-height:42px;
+}
+
+

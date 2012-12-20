@@ -1,0 +1,31 @@
+._form{
+	width:800px;
+	margin-left:50px;
+	margin-top:50px;
+}
+._form .item{font-size:24px;line-height:53px;height:75px;}
+
+._form .item .il{
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+._form .item .ir{
+	float:left;
+	width:600px;
+}
+._form .item  .input:focus{background: url(../images/opt_blank02b.png) no-repeat;}
+._form .item  .input{
+	display:inline-block;
+	background: url(../images/opt_blank02a.png) no-repeat;
+	width:345px;
+	height:64px;
+	padding:0 12px;
+	font-size:20px;line-height:53px;
+	color:#000;
+}
+._form .btn{clear:both;margin-left:10px;margin-top:15px;}
+
+._form .btn div{float:left;margin:10px 20px;}

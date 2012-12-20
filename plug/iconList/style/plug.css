@@ -1,0 +1,89 @@
+._iconListContent{
+	position:relative;
+	width:849px;
+	height:494px;
+	overflow:hidden;
+	margin-left:15px;
+}
+
+._icontListBox{
+	width:850px;
+	position:absolute;
+	top:-163px;
+	left:0px;
+	height:850px;
+}
+._iconListTr{
+	height:163px;
+	width:850px;
+}
+
+._iconListCurTd{
+	height:163px;
+	width:158px;
+	float:left;
+	position:relative;
+	background: url(../images/vod_c01b.png) no-repeat;
+	border-radius: 15px;
+}
+._iconListTd{
+	height:163px;
+	width:158px;
+	float:left;
+	position:relative;
+	background: url(../images/vod_c01a.png) no-repeat;
+	border-radius: 15px;
+	margin-left:5px;
+}
+._iconListTd0{
+	height:163px;
+	width:158px;
+	float:left;
+	position:relative;
+}
+
+
+._iconListSplitBox{
+	background: url(../images/scroll_pole.png); 
+	width:3px;
+	height:474px;
+	position:absolute;
+	right:10px;
+	top:15px;
+	display:none;
+}
+._iconListSplitBar{
+	position:absolute;
+	left:-21px;
+	top:0px;
+	display:block;
+	background: url(../images/scroll_light.png) no-repeat; 
+	width:47px;
+	height:56px;
+}
+
+.icon{
+	width:128px;
+	height:133px;
+	margin:15px ;
+	overflow:hidden;
+	border-radius: 5px;
+}
+.icon img{
+	width:128px;
+	height:133px;
+	
+}
+
+.icon a:focus{background:url(../images/vod_c01b.png) no-repeat;} 
+.icon a{
+	font-size:30px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:158px;
+	height:163px;
+	text-align:center;
+	display:block;
+	TEXT-DECORATION:none;
+}

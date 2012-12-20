@@ -1,0 +1,23 @@
+._level2MenuBox{width:200px;height:416px;position:relative;}
+._level2MenuBox a{display:inline-block;color:#fff;}
+
+._level2MenuBox .top{position:absolute;z-index:10px;background:url(../images/arrow_03.png);width:60px;height:60px;left:68px;top:-25px;display:none;}
+._level2MenuBox .bottom{position:absolute;z-index:10px;background:url(../images/arrow_04.png);width:60px;height:60px;left:68px;bottom:-25px;display:none;}
+._level2MenuBox .top2{position:absolute;z-index:10px;background:url(../images/arrow_03.png);width:60px;height:60px;left:68px;top:25px;display:none;}
+._level2MenuBox .bottom2{position:absolute;z-index:10px;background:url(../images/arrow_04.png);width:60px;height:60px;left:68px;bottom:25px;display:none;}
+
+._level2MenuBox .content{width:200px;height:416px;position:relative;overflow:hidden;}
+._level2MenuBox .content .list{position:absolute;left:0px;top:0px;}
+._level2MenuBox .content .list .item{background:url(../images/item_bg.png);height:52px;padding-left:20px;width:180px;font-size:20px;line-height:52px;position:relative;}
+._level2MenuBox .content .list .clickItem{background:url(../images/item_bg_click.png);height:52px;padding-left:20px;width:180px;font-size:20px;line-height:52px;position:relative;}
+._level2MenuBox .content .list .curItem{background:url(../images/item_bg_sel.png);height:52px;padding-left:20px;width:180px;font-size:20px;line-height:52px;position:relative;}
+
+._level2MenuBox .content .list .up{background:url(../images/close.png) no-repeat;width:27px;height:27px;display:block;right:20px;top:12px;position:absolute;z-index:5;}
+._level2MenuBox .content .list .down{background:url(../images/open.png)no-repeat;width:27px;height:27px;display:block;right:20px;top:12px;position:absolute;z-index:5;}
+
+._level2MenuBox .content2{width:180px;height:312px;position:relative;overflow:hidden;margin-left:20px;display:none;margin-bottom:52px;}
+._level2MenuBox .content2 .list2{position:absolute;left:0px;top:0px;}
+._level2MenuBox .content2 .list2 .item2{background:url(../images/item2_bg.png);height:52px;padding-left:20px;width:160px;font-size:20px;line-height:52px;position:relative;}
+._level2MenuBox .content2 .list2 .clickItem2{background:url(../images/item_bg_click2.png);height:52px;padding-left:20px;width:180px;font-size:20px;line-height:52px;position:relative;}
+._level2MenuBox .content2 .list2 .curItem2{background:url(../images/item_bg_sel2.png);height:52px;padding-left:20px;width:180px;font-size:20px;line-height:52px;position:relative;}
+
