@@ -1,0 +1,80 @@
+._indexBox{position:relative;background: url(../images/iptvw_bgxx01.png); width:703px;height:313px;padding:10px 5px;}
+
+._indexBox .hitItem1{
+	float:left;
+	width:221px;
+	height:310px;
+	position:relative;
+	margin:0 4px;
+}
+
+._indexBox .hitItem1 img{display:inline-block;width:221px;height:312px;}
+._indexBox .hitItem1 a:focus{background: url(../images/iptvw_hl01.png) no-repeat; }
+._indexBox .hitItem1 a{display:block;position:absolute;width:305px;height:407px;left:-42px;top:-48px;}
+
+._indexBox  .hitItem2{
+	float:left;
+	width:320px;
+	height:320px;
+}
+
+._indexBox  .hitItem2 .hitItem2Top{
+	height:210px;
+	width:320px;
+}
+
+._indexBox  .hitItem2 .hitItem2Top div{
+	width:150px;
+	height:200px;
+	float:left;
+	position:relative;
+	margin:0 4px;
+}
+
+._indexBox  .hitItem2 .hitItem2Top div img{
+	width:150px;
+	height:200px;
+}
+._indexBox  .hitItem2 .hitItem2Top div  a:focus{ background: url(../images/iptvw_hl02.png) no-repeat;}
+._indexBox  .hitItem2 .hitItem2Top div  a{display:block;position:absolute;width:192px;height:242px;left:-21px;top:-21px;}
+
+
+._indexBox  .hitItem2 .hitItem2Bottom{
+	height:100px;
+	width:320px;
+}
+
+._indexBox  .hitItem2 .hitItem2Bottom div{
+	width:96.6px;
+	height:100px;
+	float:left;
+	position:relative;
+	margin:0 5px;
+}
+
+._indexBox  .hitItem2 .hitItem2Bottom div img{
+	width:96.6px;
+	height:100px;
+}
+._indexBox  .hitItem2 .hitItem2Bottom div  a:focus{ background: url(../images/iptvw_hl04.png) no-repeat;}
+._indexBox  .hitItem2 .hitItem2Bottom div  a{display:block;position:absolute;width:192px;height:242px;left:-26.5px;top:-21px;}
+
+._indexBox  .hitItem3{
+	float:left;
+	width:150px;
+	height:320px;
+}
+
+._indexBox  .hitItem3 div{
+	width:150px;
+	height:150px;
+	position:relative;
+	margin-bottom:10px;
+}
+
+._indexBox  .hitItem3 div img{
+	width:150px;
+	height:150px;
+}
+._indexBox  .hitItem3  div  a:focus{background: url(../images/iptvw_hl03.png) no-repeat; }
+._indexBox  .hitItem3  div  a{display:block;position:absolute;width:192px;height:242px;left:-27px;top:-26px;}

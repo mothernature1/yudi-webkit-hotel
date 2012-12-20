@@ -1,0 +1,38 @@
+.box{
+	position:absolute;
+	z-index:5;
+	width:560px;
+	height:467px;
+	left:360px;
+	top:100px;
+	background: url(../images/loading_bg.png) no-repeat; 
+	display:none;
+}
+.box .title{
+	line-height:56px;
+	font-size:30px;
+	color:#fff;
+	text-align:center;
+	height:66px;
+	width:560px;
+	overflow:hidden;
+}
+.box .icon{
+	margin:0px auto;
+	width:200px;
+	height:306px;
+}
+
+.box .icon img{
+	width:200px;
+	height:280px;
+}
+
+.box .tip{
+	text-align:center;
+	line-height:30px;
+}
+.box .buffer{
+	text-align:center;
+	font-size:24px;
+}

@@ -1,0 +1,57 @@
+.voluemBox{
+	background: url(../images/play/bg.png);
+	position:absolute;
+	height:128px;
+	left:0px;
+	top:592px;
+	width:1280px;
+	display:none;
+	z-index:5;
+}
+.voluemBox2{
+	width:520px;
+	margin:25px auto;
+	height:20px;
+	color:#fff;
+}
+.voluemBoxLeft{
+	float:left;
+	width:60px;
+	margin-right:10px;
+}
+.voluemBoxMute0{
+	background: url(../images/play/speaker02.png);
+	width:55px;
+	height:50px;
+}
+.voluemBoxMute1{
+	background: url(../images/play/speaker01.png);
+	width:55px;
+	height:50px;
+}
+
+.voluemBoxMid{
+	background-color:#fff;
+	height:20px;
+	float:left;
+	width:400px;
+	margin-top:15px;
+	position:relative;
+}
+.voluemBoxRight{
+	width:50px;
+	height:30px;
+	text-align:center;
+	float:left;
+	color:#fff;
+	font-size:30px;
+	line-height:46px;
+}
+.voluemBoxPos{
+	position:absolute;
+	background-color:#006699;
+	left:0px;
+	top:0px;
+	width:50px;
+	height:20px;
+}

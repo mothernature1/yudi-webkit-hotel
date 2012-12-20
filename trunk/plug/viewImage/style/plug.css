@@ -1,0 +1,50 @@
+._btn{
+	position:absolute;
+	top:300px;
+	width:65px;
+	height:65px;
+	display:block;
+	overflow:hidden;
+	cursor:pointer;
+	text-align:center;
+	padding-top:65px;
+	text-decoration:none;
+	font-size:24px;
+	color:#fff;
+	background:url(../images/scroll-position.png)no-repeat ;
+}
+#toLeft{
+	left:60px;
+	background-position: 0px 0px;
+}
+#toRight{
+	right:60px;
+	background-position: -80px 0px;
+}
+
+._imgBox{
+	position:relative;
+	overflow:hidden;
+	width:1280px;
+	height:720px;
+}
+._imgBox .imgList{
+	position:absolute;
+	width:4000px;
+	left:-1280px;
+}
+._imgBox .imgList div{
+	float:left;
+	  line-height:720px;
+	width:1280px;
+	height:720px;
+	 overflow:hidden;
+	  position:relative;
+	  text-align:center;
+}
+._imgBox .imgList img{
+ position:static;
+  +position:relative;
+  top:-50%;left:-50%;
+  vertical-align:middle
+}

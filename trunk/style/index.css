@@ -1,0 +1,15 @@
+.content{
+	width:300px;
+	margin:0 auto;
+	padding-top:60px;
+	font-size:24px;
+	line-height:40px;
+}
+
+.content div{margin:6px 0px;width:210px;text-align:center;height:40px;color:#fff;}
+
+.content div a{color:#fff;}
+
+.content div.li{background:url(../images/menu_btn.png)}
+
+.content div.curLi{background:url(../images/menu_btn_active.png)}

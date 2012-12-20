@@ -1,0 +1,56 @@
+._navBox{
+	width:200px;
+	height:416px;
+	position:relative;
+}
+._navBox a{
+	color:#fff;font-size:20px;line-height:52px;
+}
+._navBox ._navBox2{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+._navBox ._navList{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:5;
+}
+._navBox ._navList > div{
+	height:52px;
+	width:180px;
+	overflow:hidden;
+	position:relative;
+	padding-left:20px;
+}
+._navBox ._navList ._navLi{
+	background: url(../images/item_bg.png) no-repeat;
+}
+._navBox ._navList ._navClickLi{
+	background: url(../images/item_bg_click.png) no-repeat;
+}
+._navBox ._navList ._navCurLi{
+	background: url(../images/item_bg_sel.png) no-repeat;
+}
+._navBox ._navTop{
+	background: url(../images/rax_03.png) no-repeat;
+	width:45px;
+	height:45px;
+	position:absolute;
+	top:-25px;
+	z-index:10;
+	left:82px;
+	display:none;
+}
+._navBox ._navBottom{
+	background: url(../images/rax_02.png) no-repeat;
+	width:45px;
+	height:45px;
+	position:absolute;
+	bottom:-25px;
+	z-index:50;
+	left:82px;
+	display:none;
+}

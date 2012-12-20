@@ -1,0 +1,138 @@
+.musicContent{
+	
+	width:880px;
+	height:354px;
+	margin-left:10px;
+	margin-top:80px;
+}
+
+._iconListContent{
+	position:relative;
+	width:860px;
+	height:354px;
+	overflow:hidden;
+}
+
+._icontListBox{
+	width:850px;
+	position:absolute;
+	top:-118px;
+	left:0px;
+}
+._iconListTr{
+	height:118px;
+	width:820px;
+}
+
+._iconListCurTd{
+	height:118px;
+	width:273px;
+	float:left;
+	position:relative;
+}
+._iconListTd{
+	height:118px;
+	width:273px;
+	float:left;
+	position:relative;
+}
+._iconListTd0{
+	height:118px;
+	width:273px;
+	float:left;
+	position:relative;
+}
+
+
+._iconListSplitBox{
+	background: url(../images/scroll_pole.png); 
+	width:3px;
+	height:469px;
+	position:absolute;
+	right:10px;
+	top:15px;
+	display:none;
+}
+._iconListSplitBar{
+	position:absolute;
+	left:-4px;
+	top:0px;
+	display:block;
+	background: url(../images/scroll_light.png) no-repeat; 
+	width:47px;
+	height:56px;
+}
+
+.icon{
+	height:118px;
+	width:273px;
+	overflow:hidden;
+	border-radius: 5px;
+}
+.icon .bg1{
+	background: url(../images/music_m01.png) no-repeat; 
+	height:118px;
+	width:273px;
+}
+
+.icon .bg2{
+	background: url(../images/music_m02.png) no-repeat; 
+	height:118px;
+	width:273px;
+}
+
+.icon .bg3{
+	background: url(../images/music_m03.png) no-repeat; 
+	height:118px;
+	width:273px;
+}
+
+.icon .bg4{
+	background: url(../images/music_m04.png) no-repeat; 
+	height:118px;
+	width:273px;
+}
+
+.icon .bg5{
+	background: url(../images/music_m05.png) no-repeat; 
+	height:118px;
+	width:273px;
+}
+.icon .bgLeft{
+	float:left;
+	width:80px;
+	height:80px;
+	margin:15px 11px 17px 18px;
+}
+.icon .bgRight{
+	width:140px;
+	height:88px;
+	float:left;
+	margin-top:17px;
+	color:#fff;
+}
+.icon .bgRight .top{
+	font-size:14px;
+	height:24px;
+}
+.icon .bgRight .title{
+	width:140px;
+	height:60px;
+	font-size:24px;
+	line-height:30px;
+	overflow:hidden;
+}
+
+
+.icon a:focus{background:url(../images/maincover_08.png) no-repeat;} 
+.icon a{
+	font-size:30px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:273px;
+	height:118px;
+	text-align:center;
+	display:block;
+	TEXT-DECORATION:none;
+}

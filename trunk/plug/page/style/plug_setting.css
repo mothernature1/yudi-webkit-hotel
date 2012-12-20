@@ -1,0 +1,185 @@
+.setBox{
+	width: 834px;
+	height: 400px;
+	padding: 5px 23px 0;
+}
+
+.setBox .setList a:focus{background:url(../images/Settings_network_but01b.png) ;}
+
+.setBox .setList a{
+	line-height:53px;
+	height:53px;
+	width:834px;
+	display:block;
+	position:relative;clear:both;
+	background:url(../images/Settings_network_but01.png) ;
+	color:#fff;
+	font-size:24px;
+}
+.setBox .setList .selected{width:29px;height:27px;background:url(../images/takeicon.png)no-repeat 0 0;position:absolute;top:18px;left:58px;text-indent:-999em;display:none;}
+
+.setBox .setList .item-name{width:73px;padding-left:92px;height:53px;line-height:53px;display:inline-block;}
+
+ .setBox .setList  .wired{background:url(../images/setting_wired.png)no-repeat 24px 14px;}
+ .setBox .setList .wifi{background:url(../images/setting_wifi.png)no-repeat 30px 10px;margin-right:86px;}
+ .setBox .setList .dial-up{background:url(../images/setting_dial_up.png)no-repeat 25px 10px;}
+ .setBox .setList .properties{background:url(../images/setting_properties.png)no-repeat 25px 10px;}
+ .setBox .setList .connection-test{background:url(../images/setting_connection_test.png)no-repeat 25px 10px;}
+ 
+  .setBox .setList .item-name2{
+	background:url(../images/item_title_bg.png) no-repeat 20px 0;
+	width:144px;
+	padding-left:80px;
+	height:53px;
+	line-height:53px;
+	display:inline-block;
+}
+ .setBox .setList .brightness{background-position:20px 12px;}
+ .setBox .setList .contrast{background-position:20px -41px;}
+ .setBox .setList .color{background-position:20px -91px;}
+ .setBox .setList .standard{background-position:20px -146px;}
+ .setBox .setList.output{background-position:20px -200px;}
+ .setBox .setList .screen-zoom{background-position:20px -254px;}
+ .setBox .setList .screen-pos{background-position:20px -309px;}
+ .setBox .setList .screen-restore{background-position:20px -409px;}
+
+ .setBox .setList .item-name3{
+	width:154px;
+	padding-left:80px;
+	height:53px;
+	line-height:53px;
+	display:inline-block;
+}
+ .setBox .setList .a1{background:url(../images/Settings_icon08.png)no-repeat 20px 5px;}
+ .setBox .setList .a2{background:url(../images/Settings_icon08.png)no-repeat 20px 5px;}
+ .setBox .setList .a3{background:url(../images/Settings_icon04.png)no-repeat 16px 10px;}
+ .networkInfo{
+	margin-top:50px;
+	font-size:22px;
+	line-height:30px;
+}
+.networkInfo .tip{width:120px;display:inline-block;text-align:right;padding-right:20px;}
+.networkInfo .text{width:600px;display:inline-block;}
+
+.setBox .cable_tip{
+	padding: 100px 80px 60px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.setBox .cable_btn{
+	width:186px;
+	margin:auto;
+}
+
+.setBox .wifi_btn{
+	margin-top:-50px;
+	margin-left:650px;
+}
+.setBox  .textList{
+	height:318px;
+	margin-top:15px;
+}
+.setBox  .pass_tip{
+	padding: 60px 120px 40px;
+	font-size: 24px;
+	text-align: left;
+}
+.setBox  .pass_input{
+	width:350px;
+	margin:auto;
+	height:100px;
+}
+.setBox  .pppoe_input{
+	padding:50px 50px 30px;
+}
+.setBox  .pppoe_input .pppoe_input_li{height:80px;}
+.setBox  .pppoe_input .pppoe_input_li .pppoe_input_li_left{float:left;width:200px;text-align:right;font-size:24px;padding-right:20px;line-height:64px;}
+.setBox  .pppoe_input .pppoe_input_li .pppoe_input_li_right{float:left;width:350px;}
+
+.setBox .video_btn{margin:20px 80px;}
+
+.setBox  .set{width:628px;margin:120px auto 0;}
+.setBox .set .bar{width:573px;height:10px;background:#fff;display:inline-block;line-height:5px;margin-right:5px;}
+.setBox .set .bar span{width:400px;background:#999;display:block;height:10px;}
+.setBox .set .value{font-family:arial;font-size:24px;}
+
+.setBox .title,.setBox .li{
+	line-height:53px;
+	height:53px;
+	width:840px;
+	display:block;
+	position:relative;clear:both;
+	background:url(../images/Settings_network_but01.png) ;
+	color:#fff;
+	font-size:24px;
+}
+
+.setBox .li .liBtnBox{width:460px;margin-left:150px;}
+.setBox .li .liBtnBox div{float:left;width:230px;}
+.setBox .li .ipItemTip{float:left;width:180px;padding-right:10px;text-align:right;}
+.setBox .li .ipItemBox{float:left;}
+
+.setBox .top_tip{
+	margin-top:-50px;
+	text-align:right;
+	padding-right:30px;
+	font-size:24px;
+	line-height:50px;
+}
+.setBox .top_tip span{
+	padding:0 5px;
+	color:#FF0;
+}
+
+.setBox .recSplit{
+	background: url(../images/subscription_line.png) no-repeat;
+}
+.setBox .recPrice{
+	background: url(../images/subscription_price.png) no-repeat;
+	padding-left:75px;
+	height:85px;
+	margin-left:10px;
+	color:#FF0;
+	font-size:36px;
+	line-height:80px;
+	position:relative;
+	margin-top:30px;
+}
+.setBox .resTime{
+	color:#ffc;
+	position:absolute;
+	left:110px;
+	top:0px;
+}
+.setBox .recDes{
+	padding-top:0px;
+	font-size:20px;
+	line-height:30px;
+	color:#fff;
+}
+.setBox .recDesBox{
+	font-size:24px;
+	line-height:36px;
+	color:#fff;
+	height:120px;
+	overflow:hidden;
+	padding:0 30px;
+	height:180px;
+	overflow:hidden;
+}
+.setBox .recBtn{
+	margin-left:600px;
+}
+
+.setBox .messContent{
+	font-size:24px;
+	line-height:36px;
+	color:#fff;
+	height:288px;
+	margin:10px 30px;
+	overflow:hidden;
+	word-break:break-all; 
+}
+
+.setBox .messContent marquee{width:100%;height:100%;}

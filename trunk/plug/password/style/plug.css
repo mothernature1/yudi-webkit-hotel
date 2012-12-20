@@ -1,0 +1,58 @@
+#passwordBox{
+	position:absolute;
+	background: url(../images/opt_bg01.png) no-repeat 0 0 transparent;
+	width:662px;
+	height:440px;
+	left:310px;
+	top:140px;
+	z-index:100;
+	display:none;
+}
+
+#passwordBox .passwordTop{
+	width:640px;
+	margin:auto;
+	background: url(../images/opt_line.png) no-repeat  left bottom;
+	height:60px;
+	padding-top:10px;
+}
+
+#passwordBox .passwordTop .passwordTitle{
+	color:#fff;
+	font-size:30px;
+	padding-left:60px;
+	background: url(../images/opt_note.png) no-repeat left center;
+	height:60px;
+	line-height:66px;
+}
+
+#passwordBox  .passwordTip{
+	width:370px;
+	margin:50px auto 20px;
+	color:#fff;
+	font-size:26px;
+}
+
+#passwordBox .passwordInput{
+	width:370px;
+	margin:auto;
+}
+#passwordBox .passwordInput input:focus{background: url(../images/opt_blank02b.png) no-repeat left center;}
+#passwordBox .passwordInput input{
+	display:inline-block;
+	background: url(../images/opt_blank02a.png) no-repeat left center;
+	width:365px;
+	height:64px;
+	font-size:36px;
+	font-weight:bold;
+	padding-left:15px;
+}
+#passwordBox .passwordBtn{
+	margin:50px auto;
+	width:400px;
+}
+
+#passwordBox .passwordBtn div{
+	float:left;
+	width:200px;
+}

@@ -1,0 +1,26 @@
+.box{
+	position:absolute;
+	background: url(../../images/opt_bg01.png) no-repeat 0 0 transparent;
+	width:662px;
+	height:440px;
+	left:310px;
+	top:140px;
+	display:none;
+}
+
+.box .top{
+	width:640px;
+	margin:auto;
+	background: url(../../images/opt_line.png) no-repeat  left bottom;
+	height:60px;
+	padding-top:10px;
+}
+.box .top .title{
+	color:#fff;
+	font-size:30px;
+	padding-left:10px;
+	height:60px;
+	line-height:66px;
+}
+.box .mid{height:282px;margin-top:5px;margin-left:12px;}
+.box .mid .listBox{height:350px;overflow:hidden;}

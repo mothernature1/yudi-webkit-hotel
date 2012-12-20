@@ -1,0 +1,267 @@
+.voluemBox{
+	background: url(../images/play/bg.png);
+	position:absolute;
+	height:128px;
+	left:0px;
+	top:592px;
+	width:1280px;
+	display:none;
+	z-index:5;
+}
+.voluemBox2{
+	width:520px;
+	margin:25px auto;
+	height:20px;
+	color:#fff;
+}
+.voluemBoxLeft{
+	float:left;
+	width:60px;
+	margin-right:10px;
+}
+.voluemBoxMute0{
+	background: url(../images/play/speaker02.png);
+	width:55px;
+	height:50px;
+}
+.voluemBoxMute1{
+	background: url(../images/play/speaker01.png);
+	width:55px;
+	height:50px;
+}
+
+.voluemBoxMid{
+	background-color:#fff;
+	height:20px;
+	float:left;
+	width:400px;
+	margin-top:15px;
+	position:relative;
+}
+.voluemBoxRight{
+	width:50px;
+	height:30px;
+	text-align:center;
+	float:left;
+	color:#fff;
+	font-size:30px;
+	line-height:46px;
+}
+.voluemBoxPos{
+	position:absolute;
+	background-color:#006699;
+	left:0px;
+	top:0px;
+	width:50px;
+	height:20px;
+}
+
+
+.seekBox{
+	background: url(../images/play/bg.png);
+	position:absolute;
+	height:140px;
+	left:0px;
+	top:580px;
+	width:1280px;
+	display:none;
+}
+.seekBox2{
+	width:1080px;
+	margin:20px auto;
+	color:#fff;
+}
+.seekBoxLeft{
+	float:left;
+	width:140px;
+	font-size:20px;
+	line-height:24px;
+}
+
+.seekBoxMid{
+	background-color:#666666;
+	height:16px;
+	float:left;
+	width:640px;
+	margin-top:25px;
+	position:relative;
+}
+.seekBoxRight{
+	width:280px;
+	text-align:center;
+	float:left;
+	margin-top:20px;
+	text-align:left;
+	padding-left:10px;
+}
+.seekBoxPos{
+	position:absolute;
+	background-color:#006699;
+	left:0px;
+	top:0px;
+	width:150px;
+	height:16px;
+	
+}
+
+.seekBoxTip{
+	position:absolute;
+	left:250px;
+	top:70px;
+	color:#fff;
+	line-height:30px;
+	font-size:24px;
+	
+}
+
+
+.contralBox{
+	background: url(../images/play/fm_bg1.png);
+	position:absolute;
+	height:720px;
+	left:0px;
+	top:0px;
+	width:474px;
+	display:none;
+}
+
+.contralBox a{display:block;color:#fff;}
+
+.contralBox2{
+	padding-left:60px;
+}
+.contralTitle{
+	padding:40px 20px 40px;
+	line-height:30px;
+	color:#fff;
+	font-size:30px;
+	height:100px;
+	width:474px;
+	clear:both;
+}
+.contralTimeBox{
+	text-align:right;
+	height:40px;
+	color:#fff;
+	font-size:20px;
+	line-height:40px;
+	width:424px;
+}
+
+
+.contralTitleBox2{
+	font-size:24px;
+	line-height:30px;
+	height:75px;
+	text-align:left;
+	padding-left:35px;
+	overflow:hidden;
+	
+}
+
+.contralItem{
+		background: url(../images/play/con_item.png) no-repeat;
+		height:46px;
+		padding-top:7px;
+		color:#fff;
+		width:400px;
+		position:relative;
+}
+.contralCurItem{
+		background: url(../images/play/con_sel.png) no-repeat;
+		height:46px;
+		padding-top:7px;
+		color:#fff;
+		width:400px;
+		position:relative;
+}
+
+.contarlItemTip{
+	float:left;
+	width:130px;
+	font-size:16px;
+	line-height:36px;
+	text-align:right;
+	
+}
+.contralItemBox2{
+	float:left;
+	width:150px;
+	height:32px;
+	background: url(../images/play/fm_hl01.png) no-repeat;
+	padding:0 39px;
+	
+}
+.contralItemBox{
+	position:relative;
+	width:150px;
+	background-color:#fff;
+	height:15px;
+	margin-top:7px;
+}
+.contralCurItem .contralItemPos {
+	position:absolute;
+	background-color:#00ccff;
+	height:15px;
+	overflow:hidden;
+	left:0px;
+}
+.contralItem .contralItemPos {
+	position:absolute;
+	background-color:#999;
+	height:15px;
+	overflow:hidden;
+	left:0px;
+}
+
+.contarlItemVal{
+	
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:20px;
+	color:#FFF;
+	float:left;
+}
+
+
+.pauseOrPlayBox{
+	position:absolute;
+	width:1280px;
+	height:720px;
+	left:0px;
+	top:0px;
+	z-index:5;
+}
+
+.pauseOrPlayBox .pauseIcon{
+	background: url(../images/play/pause.png) no-repeat;
+	width:128px;
+	height:128px;
+	position:absolute;
+	left:30px;
+	top:20px;
+}
+.pauseOrPlayBox .buttom{
+	background: url(../images/play/fb_bg01.png) no-repeat;
+	position:absolute;
+	bottom:0px;
+	width:1280px;
+	height:189px;
+	color:#fff;
+}
+.pauseOrPlayBox .buttom .left{
+	float:left;
+	padding-left:60px;
+	padding-top:25px;
+	width:310px;
+	font-size:22px;
+	line-height:30px;
+}
+
+.pauseOrPlayBox .buttom .right{
+	width:910px;
+	height:145px;
+	float:left;
+}
