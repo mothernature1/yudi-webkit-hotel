@@ -1,33 +1,52 @@
-var typeList = false;		//全局分类函数
+//var typeList = false;		//全局分类函数
 var PAGESIZE = 20;
 var SN =$.GetSN();
 var INDEX_DATA_URL = '/channel_resource/gen/indexData.html';
 var gTypeName = '';
 var gTypeList = null;
 var LockMap = {};
+var typeList = {
+		type:
+		[
+		{name:'Action', id:0},
+        {name:'Drama', id:1},
+        {name:'Horror', id:2},
+		]
+}
 
+var filmList = {
+	judul:[
+		{id:1,typeId:0,name:'Bali',playUrl:'http://172.10.10.10/vod/bali.mkv',image:'http://172.10.10.10/knj/movie/images/m1.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+        {id:2,typeId:1,name:'Bunaken',playUrl:'http://172.10.10.10/vod/bunaken.mkv',image:'http://172.10.10.10/knj/movie/images/m2.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+        {id:3,typeId:1,name:'Bangkirai',playUrl:'http://172.10.10.10/vod/bangkirai.mkv',image:'http://172.10.10.10/knj/movie/images/m3.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+        {id:4,typeId:2,name:'Bromo',playUrl:'http://172.10.10.10/vod/bromo.mkv',image:'http://172.10.10.10/knj/movie/images/m1.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+        {id:5,typeId:2,name:'Nias',playUrl:'http://172.10.10.10/vod/nias.mkv',image:'http://172.10.10.10/knj/movie/images/m2.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+        {id:6,typeId:2,name:'Prambanan',playUrl:'http://172.10.10.10/vod/prambanan.mkv',image:'http://172.10.10.10/knj/movie/images/m2.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+	]
+}
+var category,film;
 function initData(){
+    category = typeList.type;
+	film = filmList.judul;
+    for(var i = 0;i<category.length;i++){
+		category[i].arrayId = i + 1;
+		category[i].displayId = i + 1;
+	}
 	var list = new Array();
-	for(var i =1;i<5;i++){
-		var type = {name:'type'+i,id:i};
+    
+	for(var i =0;i<category.length;i++){
+		var type = category[i];
+        list.push(type);
+        
 		var dataList = new Array();
-		for(var j = 1;j<i*9;j++){
-			var movie = {
-				actors:"彭于晏,柯宇纶,林辰唏",
-				director:"林育贤",
-				image:"/channel_resource/program/image/1334225583390.jpeg",
-				region:"台湾",
-				introduction:"阿信自出生便有惊人的天赋，但他患有轻微的小儿麻痺症，他的一只脚短于另一只脚。学校教练发现阿信在跳马的才能",
-				name:'tv'+i+'_'+j,
-				id:j,
-				mode:4,
-				playUrl:'rtmp://108.163.144.15/vod/media/mp4:hd2/fareha/fareha_22.mp4',
-				
-			}
-			dataList.push(movie);
+		for(var j = 0;j<film.length;j++){
+			var channel = film[j];
+            if(channel.typeId==type.id){
+                dataList.push(channel);
+            }
+            
 		}
 		type.dataList = dataList;
-		list.push(type);
 	}
 	typeList = list;
 	

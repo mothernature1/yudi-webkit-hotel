@@ -37,7 +37,8 @@ KEY.KEY_DOWN = function (key,keyName,a){
 }
 
 KEY.KEY_RETURN = function(){ 
-	return false;
+	//return false;
+    $.gotoPage('./knj/index.html');
 }
 
 
