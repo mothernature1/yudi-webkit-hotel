@@ -3,7 +3,7 @@ function initData(callback){
 	
 	
 	list.push({name:lang.index.tv,tar:'tv',disName:lang.index.tvDis,url:'channel/index.html',image:'images/base/tv_logo.png'});
-	list.push({name:lang.index.movie,tar:'movies',disName:lang.index.movieDis,url:'movie/index.html',image:'images/base/movies_logo.png'});
+	list.push({name:lang.index.movie,tar:'tv',disName:lang.index.movieDis,url:'movie/index.html',image:'images/base/movies_logo.png'});
 	list.push({name:lang.index.music,tar:'music',disName:lang.index.music,url:'movie/index.html',image:'images/base/music_logo.png'});
 	list.push({name:lang.index.radio,tar:'radio',disName:lang.index.radio,url:'radio/index.html',image:'images/base/fm_logo.png'});
 	list.push({name:lang.index.Weather,tar:'weather',disName:lang.index.Weather,url:'weather/index.html',image:'images/base/weather-logo.png'});

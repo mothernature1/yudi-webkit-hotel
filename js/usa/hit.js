@@ -10,11 +10,17 @@ function initHitBox(){
 				$.setSession('nav',lang.movie.index);
 				$.setSession('dataObj',$.toJSON(data));
 				$.gotoPage('movie/film/index.html?category='+1);
+			}else if(tar == 'movielist'){		//如果是电影
+				$.setSession('nav',lang.movie.index);
+				$.setSession('dataObj',$.toJSON(data));
+				$.gotoPage('movie/film/index.html?category='+1);
 			}else if(tar == 'drama'){
 				$.setSession('nav',lang.movie.index);
 				$.setSession('dataObj',$.toJSON(data));
 				$.gotoPage('movie/film/index.html?category='+2);
 			}else if(tar == 'tv'){
+                $.setSession('nav',lang.movie.index);
+				$.setSession('dataObj',$.toJSON(data));
 				$.setSession('id',data.id);
 				$.removeSession("itemId");
 				$.gotoPage('channel/play/index.html');
@@ -92,7 +98,7 @@ function doParseIndexData(text){
 			list:hitList,
 		},
 		2:{
-			tar:'movie',
+			tar:'movielist',
 			list:movieList,
 		},
 		3:{
