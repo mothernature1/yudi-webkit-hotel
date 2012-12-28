@@ -3,6 +3,6 @@ KEY.KEY_RETURN = function(){
 		navList.setFocus();
 	}else{
 		gDataList = false;
-		$.gotoPage('./knj/index.html');
+		$.gotoPage('../index.html');
 	}
 }

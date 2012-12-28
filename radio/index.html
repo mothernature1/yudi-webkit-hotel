@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ipmacro tv</title>
+<link href="../theme/style.css" rel="stylesheet" type="text/css" />
+<link href="../plug/navList/style/plug.css" rel="stylesheet" type="text/css" />
+<link href="../plug/textList/style/plug_radio.css" rel="stylesheet" type="text/css" />
+<link href="../plug/page/style/radio.css" rel="stylesheet" type="text/css" />
+
+<SCRIPT type="text/javascript" src="../js/config.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../js/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../js/utils.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../js/trimpath-template.js"></SCRIPT>
+<script type="text/javascript" src="../js/volume_payer.js"></script>
+
+<SCRIPT type="text/javascript" src="../plug/navList/js/plug.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../plug/textList/js/plug.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="js/index.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/key.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/interface.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/play.js"></SCRIPT>
+
+<script>
+	var PAGE_PATH="../";	//页面目录
+	document.write("<script src='"+PAGE_PATH+"lang/"+config.lang+".js'><\/script>");
+	document.write("<link href='"+PAGE_PATH+"theme/base/"+config.theme+".css'  rel='stylesheet' type='text/css'/>");  
+	
+	
+</script>
+</head>
+<body>
+<div id="pagewrap">
+	<div class="gTopLogo">&nbsp;</div>
+	<div class="pageLeft">
+        <div class="logo radio">&nbsp;</div>
+        <div class="navContent " id="navBox">
+        	 
+        </div>
+    </div>
+    <div class="pageRight">
+    	<div class="nav" id="nav">
+    
+        </div>
+        <div class="content">
+        	<div class="contentLeft" id="listBox" style="width:390px;">
+            	&nbsp;
+            </div>
+            <div class="contentRight" style="width:500px;">
+            	<div class="radioBox">
+                	<div class="radioBoxLeft">
+                        <div class="title" id="titleBox">&nbsp;</div>
+                        <div class="albumt" id="albumtBox">&nbsp;</div>
+                    </div>
+                    <div class="radioBoxRight" id="logoBox">
+                        <img id="radioBoxImg" src="http://img.v197.56.com/images/6/29/junda6i56olo56i56.com_127092371985hd.jpg"/>
+                    </div>
+                </div>
+                
+                <div class="playBox">
+                    <div class="playBoxLeft" id="bufferBox">&nbsp;</div>
+                    <div class="playBoxMid">
+                        <div class="prev" style="display:none;">&nbsp;</div>
+                        <div class="play" id="pauseOrPlayBox">&nbsp;</div>
+                        <div class="stop;" style="display:none;">&nbsp;</div>
+                        <div class="next" style="display:none;">&nbsp;</div>
+                    </div>
+                    <div class="playBoxRight">
+                        <div class="volumeBox" id="volumeBox">&nbsp;</div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

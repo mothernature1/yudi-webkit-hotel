@@ -24,9 +24,10 @@ $(function(){
 		if(data.tar == 'setting'){
 			$.Location('/yudiHotel/setting/index.html');
 		}else{
-			if(data.tar == 'tv' || data.tar =='movie'){
-				$.go(config.project+'/'+data.url,data.url);
-			}
+			if(data.tar == 'tv' || data.tar =='movie'|| data.tar =='radio'){
+			$.go(config.project+'/'+data.url,data.url);
+		}
+			
 		}
 		return false;
     }).focus(function(e) {
