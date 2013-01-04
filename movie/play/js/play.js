@@ -15,6 +15,8 @@ function OnStateChanged(state, percent,speed){
 		hideBackground();
 	}else if("buffer" == state){
 		
+	}else if("end" == state){
+		history.go(-1);
 	}
 }
 
