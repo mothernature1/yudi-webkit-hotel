@@ -49,6 +49,7 @@ function showEpgBox(data){
 	
 	var epgBox = document.getElementById('epgBox');
 	epgBox.style.display = 'block';
+	hideEpgBox()
 }
 
 

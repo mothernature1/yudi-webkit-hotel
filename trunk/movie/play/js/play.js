@@ -1,7 +1,7 @@
 
 function play(data){
 	var playUrl = data.playUrl;
-	
+	myPlayer.disName =data.name;
 	try {	
 		IMPlayer.Play(playUrl,data.mode);
 	}catch (e) {
@@ -16,7 +16,7 @@ function OnStateChanged(state, percent,speed){
 	}else if("buffer" == state){
 		
 	}else if("end" == state){
-		history.go(-1);
+		$.gotoPage('../index.html');
 	}
 }
 
