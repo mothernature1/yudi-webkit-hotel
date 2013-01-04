@@ -1,0 +1,35 @@
+.logo2{
+	line-height:236px;
+	width: 236px;
+	height:236px;
+	 overflow:hidden;
+	  position:relative;
+	  text-align:center;
+}
+
+.logo2 img{
+	 position:static;
+  +position:relative;
+  top:-50%;left:-50%;
+  vertical-align:middle;
+}
+#pagewrap .pageRight .local-infoBox{ background:url(../images/local-bg.png) repeat; height:470px; margin-left:-15px;border-radius:8px ;}
+#listBox{ display:none;}
+.Media-box{ margin-top:16PX; }
+.Media-list{}
+.Media-list a{ width:592px; background:url(../images/list-bg.png) bottom center no-repeat; height:53px; line-height:40px; font-size:24px; display:block; color:#FFF;}
+.Media-list a:focus{ background:url(../images/list-bg.png) top center no-repeat;}
+.Media-list a span{ background:url(../images/big-icon.png) no-repeat; width:58px; height:40px; display:inline-block; margin:5px 20px 0 30px;}
+.Media-list a span.Media-icon1{ background:url(../images/big-icon.png) top no-repeat;}
+.Media-list a span.Media-icon2{ background:url(../images/big-icon.png) left -56px no-repeat;}
+.Media-list a span.Media-icon3{ background:url(../images/big-icon.png) bottom no-repeat;}
+
+
+.local-TIP{ background:url(../images/fff10.png); padding:10px;  border-radius:5px; position:absolute; left:55px; top:547px; }
+.local-TIP div{ float:left; width:56px; font-size:14px; margin:8px; text-align:center;}
+.local-TIP div p{ width:28px; height:14px; display:block; clear:both;border-radius:14px; margin:auto; margin-bottom:8px;}
+
+.local-TIP .but_red{ background-color:#ed1b24;}
+.local-TIP .but_gr{ background-color:#177c30;}
+.local-TIP .but_y{ background-color:#ffcc01;}
+.local-TIP .but_bl{ background-color:#008eda;}

@@ -1,0 +1,41 @@
+.conLeft{width:600px;float:left;}
+.conRight{width:260px;float:left;margin-left:20px;}
+
+ .tvBox{width:166px;height:166px;position:relative;background: url(../images/icon_bg.png) no-repeat;margin:auto;}
+
+ .tvBox .tvIcon{width:130px;height:130px;position:absolute;left:19px;top:19px;}
+ .tvBox .tvIcon img{width:130px;height:130px;}
+.tvBox .tvIconBg{position:absolute;left:0px;top:0px;width:166px;height:166px;z-index:5;background: url(../images/tv02.png) no-repeat; }
+ .tvTitle{text-align:center;height:36px;line-height:36px;width:246px;overflow:hidden;color:#fff;padding-left:10px;}
+
+.epgBox{
+	height:190px;
+}
+.epgItem{
+	width:275px;
+	height:50px;
+	background: url(../images/epg.png) no-repeat;
+	margin-top:10px;
+	padding-left:15px;
+	line-height:26px;
+	color:#fff;
+	overflow:hidden;
+}
+.epgTime{
+	height:20px;
+	width:275px;
+	font-size:16px;
+	clear:both;
+}
+.epgName{
+	line-height:30px;
+	font-size:16px;
+	width:275px;
+	clear:both;
+	overflow:hidden;
+}
+.epgName2{
+	font-size:16px;
+	line-height:30px;
+	color:#fff;
+}

@@ -10,7 +10,7 @@ $(function(){
 	}
 	
 	//加入到数组
-	iconMap={"tornado":0,"tropicalstorm":1,"hurricane":2,"severethunderstorms":3,"thunderstorms":4,"mixedrainandsnow":5,"mixedrainandsleet":6,"mixedsnowandsleet":7,"freezingdrizzle":8,"drizzle":9,"freezingrain":10,"amshowers":11,"showers":11,"pmrain":11,"pmshowers":11,"showers":12,"snowflurries":13,"lightsnowshowers":14,"blowingsnow":15,"snow":16,"hail":17,"sleet":18,"dust":19,"foggy":20,"haze":21,"smoky":22,"blustery":23,"windy":24,"cold":25,"cloudy":26,"mostlycloudy":27,"partlycloudy":29,"clear ":31,"sunny":32,"mostlysunny":36,"fair":33,"mixedrainandhail":35,"hot":36,"isolatedthunderstorms":37,"scatteredthunderstorms":38,"scatteredshowers":40,"heavysnow":41,"scatteredsnowshowers":42,"heavysnow":43,"partlycloudy":44,"thundershowers":45,"snowshowers":46,"isolatedthundershowers":47};
+	iconMap={"tornado":0,"tropicalstorm":1,"hurricane":2,"severethunderstorms":3,"thunderstorms":4,"mixedrainandsnow":5,"mixedrainandsleet":6,"mixedsnowandsleet":7,"freezingdrizzle":8,"drizzle":9,"freezingrain":10,"amshowers":11,"showers":11,"pmrain":11,"pmshowers":11,"showers":12,"snowflurries":13,"lightsnowshowers":14,"blowingsnow":15,"snow":16,"hail":17,"sleet":18,"dust":19,"foggy":20,"haze":21,"smoky":22,"blustery":23,"windy":24,"cold":25,"cloudy":26,"clouds":27,"mostlycloudy":27,"clouds":28,"partlycloudy":29,"clear ":31,"sunny":32,"sun":32,"mostlysunny":36,"fair":33,"mixedrainandhail":35,"hot":36,"isolatedthunderstorms":37,"scatteredthunderstorms":38,"scatteredshowers":40,"heavysnow":41,"scatteredsnowshowers":42,"heavysnow":43,"partlycloudy":44,"thundershowers":45,"snowshowers":46,"isolatedthundershowers":47};
 	
 	 
 	$.template("tool","jst_tool",lang.weather);

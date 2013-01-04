@@ -1,0 +1,6 @@
+.win-box{ width:700px; height:auto;border-radius:10px ; background:url(../images/win-bg.png) repeat; position:absolute; left:365px; top:150px; display:none; z-index:100;}
+
+.win-tit{ margin:10px 25px 0px; padding:0px 60px; background:url(../images/opt_note.png) no-repeat center left; height:65px; line-height:65px;  border-bottom:#a4a4a4 solid 1px;font-size:30px;}
+.win-content{ margin:80px 25px; font-size:20px; text-align:center;}
+.win-but{ margin:30px 35px 60px; font-size:20px; text-align:center;}
+.win-but a{ margin:0 5px;}

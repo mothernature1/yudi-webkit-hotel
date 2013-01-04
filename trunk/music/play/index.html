@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ipmacro tv</title>
+<link href="../../theme/style.css" rel="stylesheet" type="text/css" />
+<link href="../../plug/douban/style/plug.css" rel="stylesheet" type="text/css" />
+<link href="../../style/play-contral.css" rel="stylesheet" type="text/css" />
+
+<SCRIPT type="text/javascript" src="../../js/config.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../../js/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../../js/utils.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../../js/trimpath-template.js"></SCRIPT>
+<script type="text/javascript" src="../../js/volume_payer.js"></script>
+
+<SCRIPT type="text/javascript" src="js/index.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/play.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/key.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../js/interface.js"></SCRIPT>
+
+<script>
+	var PAGE_PATH="../../";	//页面目录
+	document.write("<script src='"+PAGE_PATH+"lang/"+config.lang+".js'><\/script>");
+	document.write("<link href='"+PAGE_PATH+"theme/base/"+config.theme+".css'  rel='stylesheet' type='text/css'/>");  
+	
+</script>
+</head>
+<body>
+
+<div id="musicPage">
+	<div class="con" id="con">
+    	<div class="conLeft" id="iconBox">
+        	<img src="images/music.png"/>
+        </div>
+        <div class="conRight">
+        	<div class="title" id="titleBox">&nbsp; </div>
+            <div class="songer" id="artistBox">&nbsp;</div>
+            <div class="type" id="typeBox">&nbsp;</div>
+            <div class="splitBox"><div class="splitBg" id="splitBg">&nbsp;</div></div>
+            <div class="timeBox" id="timeBox">&nbsp;</div>
+            <div class="btnBox">
+            	<div class="btnLeft" id="bufferBox">&nbsp;</div>
+                <div class="btnMid" id="btnBox">
+                	<div class="prev">&nbsp;</div>
+                    <div class="play" id="playBox">&nbsp;</div>
+                    <div class="stop">&nbsp;</div>
+                    <div class="next">&nbsp;</div>
+                </div>
+                <div class="btnRight">
+                	<div class="volumeBox" id="volumeBox">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="voluemBox" id="voluemBox" style=" "><div class="voluemBox2"><div class="voluemBoxLeft"><div class="voluemBoxMute1" id="voluemBoxMute">&nbsp;</div></div><div class="voluemBoxMid"><div class="voluemBoxPos" id="voluemBoxPos" style="width: 200px; "><a herf="#" id="playVolumeA">&nbsp;</a></div></div><div class="voluemBoxRight" id="volumeBoxValue">15</div></div></div>
+
+
+</body>
+</html>
