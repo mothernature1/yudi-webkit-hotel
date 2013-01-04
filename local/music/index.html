@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ltv</title>
+<link href="../../theme/style.css" rel="stylesheet" type="text/css" />
+<link href="../../plug/page/style/local_music.css" rel="stylesheet" type="text/css" />
+<link href="../../plug/textList/style/plug_local_music.css" rel="stylesheet" type="text/css" />
+<link href="../../style/play-contral.css" rel="stylesheet" type="text/css" />
+	
+<SCRIPT type="text/javascript" src="../../js/config.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../../js/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../../js/utils.js"></SCRIPT>
+<script type="text/javascript" src="../../js/volume_payer.js"></script>
+<SCRIPT type="text/javascript" src="../../plug/textList/js/plug.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="../../js/parserLyrics.js"></SCRIPT>
+
+
+<SCRIPT type="text/javascript" src="js/index.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/play.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/key.js"></SCRIPT>
+
+
+
+<script>
+	var PAGE_PATH="../../";	//页面目录
+	document.write("<script src='"+PAGE_PATH+"lang/"+config.lang+".js'><\/script>");
+	document.write("<link href='"+PAGE_PATH+"theme/base/"+config.theme+".css'  rel='stylesheet' type='text/css'/>");  
+</script>
+</head>
+<body>
+
+<div id="pagewrap">
+	<div class="gTopLogo">&nbsp;</div>
+	<div class="pageLeft">
+        <div class="logo local" id="gLogo">&nbsp;</div>
+         <div class="musicside" id="navBox">
+             	<div class="icon" id="logoBox"><img style="width:160px;" src="images/music.png"/></div>
+         </div>
+    </div>
+    <div class="pageRight">
+    	<div class="nav" id="nav">
+          &nbsp;
+        </div>
+        <div class="content">
+        	<div class="playing"><h2 id="titleBox">&nbsp;</h2></div>
+            <div class="songList" id="songList">
+            </div>
+            <div class="play-area">
+					<div class="bar"><span class="splitBg" id="splitBg"></span></div>
+					<span class="volume" id="volumeBox">&nbsp;</span>
+					<span class="play-btn"><em class="pre"> </em><em id="playBtn" class="start"> </em><em class="stop"> </em><em class="next"> </em></span>
+					<span class="time">&nbsp;</span>
+			</div>
+        </div>
+   	</div>
+</div>
+<div class="voluemBox" id="voluemBox" style=" "><div class="voluemBox2"><div class="voluemBoxLeft"><div class="voluemBoxMute1" id="voluemBoxMute">&nbsp;</div></div><div class="voluemBoxMid"><div class="voluemBoxPos" id="voluemBoxPos" style="width: 200px; "><a herf="#" id="playVolumeA">&nbsp;</a></div></div><div class="voluemBoxRight" id="volumeBoxValue">15</div></div></div>
+
+
+
+<div class="geci-box" id="geci-box">
+	<div class="geci-content">
+    	<div class="geci-list">
+            <p id="p1" class="geci-left"></p>
+            <p id="p2" class="geci-right"></p>
+        </div>
+     </div>
+</div>
+
+
+
+</body>
+</html>

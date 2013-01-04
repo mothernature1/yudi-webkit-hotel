@@ -91,7 +91,7 @@ function loadCityData(city,callback){
 	if(iconMap){
 		
 	}else{
-		var iconMap={"tornado":0,"tropicalstorm":1,"hurricane":2,"severethunderstorms":3,"thunderstorms":4,"mixedrainandsnow":5,"mixedrainandsleet":6,"mixedsnowandsleet":7,"freezingdrizzle":8,"drizzle":9,"freezingrain":10,"amshowers":11,"showers":11,"pmrain":11,"pmshowers":11,"showers":12,"snowflurries":13,"lightsnowshowers":14,"blowingsnow":15,"snow":16,"hail":17,"sleet":18,"dust":19,"foggy":20,"haze":21,"smoky":22,"blustery":23,"windy":24,"cold":25,"cloudy":26,"mostlycloudy":27,"partlycloudy":29,"clear ":31,"sunny":32,"mostlysunny":36,"fair":33,"mixedrainandhail":35,"hot":36,"isolatedthunderstorms":37,"scatteredthunderstorms":38,"scatteredshowers":40,"heavysnow":41,"scatteredsnowshowers":42,"heavysnow":43,"partlycloudy":44,"thundershowers":45,"snowshowers":46,"isolatedthundershowers":47};
+		var iconMap={"tornado":0,"tropicalstorm":1,"hurricane":2,"severethunderstorms":3,"thunderstorms":4,"mixedrainandsnow":5,"mixedrainandsleet":6,"mixedsnowandsleet":7,"freezingdrizzle":8,"drizzle":9,"freezingrain":10,"amshowers":11,"showers":11,"rain":11,"showers":11,"showers":12,"snowflurries":13,"lightsnowshowers":14,"blowingsnow":15,"snow":16,"hail":17,"sleet":18,"dust":19,"foggy":20,"haze":21,"smoky":22,"blustery":23,"windy":24,"cold":25,"cloudy":26,"clouds":27,"mostlycloudy":27,"clouds":28,"partlycloudy":29,"clear ":31,"sunny":32,"sun":32,"mostlysunny":36,"fair":33,"mixedrainandhail":35,"hot":36,"isolatedthunderstorms":37,"scatteredthunderstorms":38,"scatteredshowers":40,"heavysnow":41,"scatteredsnowshowers":42,"heavysnow":43,"partlycloudy":44,"thundershowers":45,"snowshowers":46,"isolatedthundershowers":47};
 	}
 	//首页天气显示用到--end-----
 	
@@ -194,8 +194,12 @@ function loadCityData(city,callback){
 							lowItem = lowItem.replace("Low","");
 							var iconItem = $(this).find(".icon").text();
 							iconItem = iconItem.toLowerCase();
+							iconItem = iconItem.replace("am","");
+							iconItem = iconItem.replace("pm","");
 							iconItem = iconItem.replace("(day)","");
 							iconItem = iconItem.replace("(night)","");
+							var tempIconItem = iconItem.split("/");
+							iconItem = tempIconItem[0];
 							iconItem = iconItem.replace(/\s+/g,"");
 							iconItem = eval("iconMap."+iconItem)+".png";
 							var dayOfWeekItem = $(this).find(".day-name").text();
@@ -226,7 +230,59 @@ function loadCityData(city,callback){
 		}
 	});
 	
+	//alert(city.woeid);
+	/*
+	var searchName = city.name.replace(" ","%20");
+	var url = 'http://www.google.com/ig/api?weather='+searchName+'&hl=en&ie=utf-8';
+	
+	
+	
+			
+			
+	//var url = 'api.xml';
+	$.ajax({
+		url:url,
+		type: 'GET',
+		dataType:'html', 
+		code:'utf-8',
+		success:function(text){
+			
+			$.log(text);
+			var dom = $(text);
 
+			var data = {
+				current:{
+					humidity:dom.find("current_conditions").find("humidity").attr("data")==null?"":dom.find("current_conditions").find("humidity").attr("data").replace("Humidity:",""),
+					condition:dom.find("current_conditions").find("condition").attr("data")==null?"":dom.find("current_conditions").find("condition").attr("data"),
+					temp:tempUnit(dom.find("current_conditions").find("temp_f").length==0?"":dom.find("current_conditions").find("temp_f").attr("data"),weather_unit),
+					lowTemp:tempUnit($(dom.find("forecast_conditions")[0]).find("low").attr("data")==null?"":$(dom.find("forecast_conditions")[0]).find("low").attr("data"),weather_unit),
+					highTemp:tempUnit($(dom.find("forecast_conditions")[0]).find("high").attr("data")==null?"":$(dom.find("forecast_conditions")[0]).find("high").attr("data"),weather_unit),
+					wind:dom.find("current_conditions").find("wind_condition").attr("data")==null?"":dom.find("current_conditions").find("wind_condition").attr("data").replace("Wind: ",""),
+					image:dom.find("current_conditions").find("icon").attr("data")==null?"":dom.find("current_conditions").find("icon").attr("data"),
+					dayOfWeek:$(dom.find("forecast_conditions")[0]).find("day_of_week").attr("data")==null?"":$(dom.find("forecast_conditions")[0]).find("day_of_week").attr("data")
+				}};
+			var forecastList = new Array();
+			dom.find("forecast_conditions").each(function(){
+				var forecast = {};
+				forecast.dayOfWeek = $(this).find("day_of_week").attr("data");
+				forecast.lowTemp = tempUnit($(this).find("low").attr("data"),weather_unit);
+				forecast.highTemp = tempUnit($(this).find("high").attr("data"),weather_unit);
+				forecast.image = $(this).find("icon").attr("data");
+				forecastList.push(forecast);
+			});
+			data.forecastList  = forecastList;
+			
+			$.log($.toJSON(data));
+			callback(city,data);
+		
+		},
+		error:function(){
+			var data = new Object();
+			callback(city,data);
+		},
+	})
+	
+	*/
 }
 
 /*

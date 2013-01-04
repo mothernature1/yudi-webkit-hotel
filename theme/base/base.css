@@ -1,0 +1,27 @@
+
+#pagewrap .gTopLogo{position:absolute;z-index:100;background: url() no-repeat;width:106px;height:16px;right:80px;top:60px;}
+#pagewrap .gIndexLogo{position:absolute;z-index:100;background: url() no-repeat;width:195px;height:40px;left:80px;top:35px;}
+
+#pagewrap .pageLeft .setting{background: url(images/setting.png) no-repeat;}
+#pagewrap .pageLeft .channel{background: url(images/tv_logo.png) no-repeat;}
+#pagewrap .pageLeft .chinatv{background: url(images/chinatv.png) no-repeat;}
+#pagewrap .pageLeft .mychannel{background: url(images/mychannel.png) no-repeat;}
+
+#pagewrap .pageLeft .movie{background: url(images/header_movie.png) no-repeat;}
+#pagewrap .pageLeft .drama{background: url(images/myDrara.png) no-repeat;}
+#pagewrap .pageLeft .local{background: url(images/locla_file.png) no-repeat;}
+#pagewrap .pageLeft .account{background: url(images/account.png) no-repeat;}
+#pagewrap .pageLeft .music{background: url(images/music_logo.png) no-repeat;}
+#pagewrap .pageLeft .youtube{background: url(images/youtube_bg.png) no-repeat;}
+#pagewrap .pageLeft .rssNews{background: url(images/news_logo.png) no-repeat;}
+#pagewrap .pageLeft .radio{background: url(images/radio_logo.png) no-repeat;}
+#pagewrap .pageLeft .pvr{background: url(images/pvr_logo.png) no-repeat;}
+#pagewrap .pageLeft .youtubeVod{background: url(images/youtubeVod_logo.png) no-repeat;}
+
+#pagewrap .pageLeft .message{background: url(images/message_logo.png) no-repeat;}
+
+
+
+
+
+
