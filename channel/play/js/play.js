@@ -10,6 +10,9 @@ function play(data){
 	
 	var playUrl = data.url;
 	
+	if(playUrl.indexOf('igmp') >-1){
+		playUrl ='udp'+playUrl.substring(4);
+	}$.log(playUrl);
 	try {	
 		IMPlayer.Play(playUrl,data.mode);
 	}catch (e) {
