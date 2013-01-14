@@ -11,7 +11,7 @@ $(function(){
 			$('#infoBox').hide();
 		},
 		moveRight:function(){			//向右事件
-			iconList.setFocus();
+			iconList.setFocus(); 
 		},
 		onclick:function(data,id){
 			$('#nav').html(data.name);
