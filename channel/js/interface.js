@@ -7,12 +7,13 @@ var typeList = {
 
 var chList = {
 	ch:[
-		{id:1,typeId:1,name:'TRANS TV',url:'udp://225.0.0.1:1234',image:'images/transtv.png'},
-		{id:2,typeId:1,name:'RCTI',url:'udp://225.0.0.2:1234',image:'images/rcti.png'},
+		{id:1,typeId:1,name:'TRANS TV',url:'igmp://225.0.0.1:1234',image:'images/transtv.png'},
+		{id:2,typeId:1,name:'RCTI',url:'igmp://225.0.0.2:1234',image:'images/rcti.png'},
 		{id:3,typeId:1,name:'SCTV',url:'udp://225.0.0.3:1234',image:'images/sctv.png'},
 		{id:4,typeId:1,name:'TVRI',url:'udp://225.0.0.4:1234',image:'images/tvri.png'},
 	]
 }
+
 
 var category,tv;
 function initData(){
@@ -29,15 +30,20 @@ function initData(){
 		var type = category[i];
         list.push(type);
 		
-	var dataList = new Array();
-	for(var j = 0;j<tv.length;j++){
-		var channel = tv[j];
+		var dataList = new Array();
+		for(var j = 0;j<tv.length;j++){
+			var channel = tv[j];
             if(channel.typeId==type.id){
                 dataList.push(channel);
+				channel.arrayId = dataList.length;
+				channel.typeArrayId = type.arrayId;
             }
 		}
-			type.dataList = dataList;
-		}
-		typeList = list;
+		type.dataList = dataList;
 	}
+	typeList = list;
+}
 
+function descByNumber(a,b){
+	return a.displayId > b.displayId;
+}

@@ -33,3 +33,13 @@ function pageShown(){
 function pageHide(){
 	IMPlayer.Stop();
 }
+
+
+function gotoPlayPage(data,typeId,itemId){
+	curTypeId = typeId;
+	curItemId = itemId;
+	var type = typeList[curTypeId - 1]; 
+	data = type.dataList[curItemId - 1];  
+	
+	play(data);
+}

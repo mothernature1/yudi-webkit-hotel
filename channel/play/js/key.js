@@ -1,3 +1,13 @@
+KEY.KEY_0 = function(){pressKey(0);}
+KEY.KEY_1 = function(){pressKey(1);}
+KEY.KEY_2 = function(){pressKey(2);}
+KEY.KEY_3 = function(){pressKey(3);}
+KEY.KEY_4 = function(){pressKey(4);}
+KEY.KEY_5 = function(){pressKey(5);}
+KEY.KEY_6 = function(){pressKey(6);}
+KEY.KEY_7 = function(){pressKey(7);}
+KEY.KEY_8 = function(){pressKey(8);}
+KEY.KEY_9 = function(){pressKey(9);}
 KEY.KEY_RETURN = function(){
 	history.go(-1);
 }

@@ -1,0 +1,72 @@
+.numberBox{
+	width:370px;
+	height:650px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:url(../images/abg.png) repeat; 
+	z-index:5;
+	padding:70px 0px 0px 60px;
+	display:none;
+}
+
+
+.numberBox .logo{
+	background:url(../images/search_logo06.png) no-repeat; 
+	width:257px;
+	height:36px;
+	padding-bottom:40px;
+}
+.numberBox  a:focus{background:url(../images/ok_but_b.png); }
+.numberBox  a{
+	height:54px;
+	width:330px;
+	color:#fff;
+	line-height:54px;
+	font-size:20px;
+	position:relative;
+	background:url(../images/ok_but_a.png); 
+	display:block;
+	overflow:hidden;
+}
+.numberBox .num{
+	float:left;
+	width:45px;
+	height:54px;
+	padding-left:10px;
+}
+.numberBox .text{
+	float:left;
+	width:275px;
+	height:54px;
+}
+
+.numberBox .content{
+	height:432px;
+	overflow:hidden;
+	position:relative;
+	width:370px;
+}
+
+.numberBox .content .list{
+	position:absolute;
+	width:330px;
+}
+.numberBox .content .splitBox{
+	background: url(../../plug/iconList/images/scroll_pole.png); 
+	width:2px;
+	height:486px;
+	position:absolute;
+	right:14px;
+	top:0px;
+}
+.numberBox .content .splitBox .splitBar{
+	position:absolute;
+	left:-21px;
+	top:0px;
+	display:block;
+	background: url(../../plug/iconList/images/scroll_light.png) no-repeat; 
+	width:47px;
+	height:56px;
+	z-index:5;
+}
