@@ -52,5 +52,5 @@ $(function(){
 });
 
 function pageshow(){
-	setTimeout(initWeather,0);
+	initWeather();
 }

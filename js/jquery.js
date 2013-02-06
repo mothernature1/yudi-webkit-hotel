@@ -21,53 +21,5 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
  */
 
 
-jQuery.ajax = (function(_ajax){ 
-    
-    
-	var URL = 'http://www.gtctravel.com:8080/channel/stb/ajaxProxy.htm';
-	//var URL = 'http://service.ipmacro.com/license/service!ajaxProxy.htm';
-	var webUrl = config.webUrl;
-	
-	
-    return function(o) {
-        $.log(o.url);
-		
-        var url = o.url;
-	    var companyId = $.getLoginInfo("companyId","");
-	   	if(url.indexOf(config.webUrl) == 0 && companyId){
-			if(url.indexOf('/channel_resource/live/liveListNew.html') > 0 ){
-				url = config.webUrl +'/channel_resource/live/liveList_'+companyId+'.html';
-			}else if(url.indexOf('/channel_resource/live/program.html') > 0){
-				url = config.webUrl +'/channel_resource/live/program_'+companyId+'.html';
-			}else if(url.indexOf('/channel_resource/gen/indexData.html') > 0){
-				url = config.webUrl +'/channel_resource/gen/indexData_'+companyId+'.html';
-			}else{
-				if(url.indexOf('?') > -1){
-					url += '&companyId='+companyId;
-				}else{
-					url += '?companyId='+companyId;
-				}
-			}
-		}
-	    
-	   
-		
-	   
-	    $.log("url:"+url);
-		
-        if ( typeof(LOG)!= 'object') {
-		   url = o.url.replace("youtube","ebutuoy");
-		   url = url.replace("google","elgoog");
-           var code = o.code?o.code:'utf-8';
-		   
-           o.url = URL+'?url='+encodeURIComponent(url)+'&code='+code;
-        }else{
-			o.url = url;
-		}
-         $.log("o.url ajax:"+o.url);
-        return _ajax.apply(this, arguments);
-        
-    };
-    
-})(jQuery.ajax);
+
 

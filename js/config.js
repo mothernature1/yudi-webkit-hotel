@@ -37,23 +37,7 @@ var config = {
 	showRss:true,					//显示新闻
 	showBalance:true,				//客户信息
 	showPayChannel:false,			//显示付费频道
-	showErrorLive:true,			//显示错误频道
-	showLock:true,			//亲子锁
-	showChannelLock:false,		//频道加锁,显示频道加锁
-	showRecord:true,			//支持录制功能
-	showSpeedTest:true,			//显示速度测试
-	showMyChannel:true,			//显示用户自定义频道
-	showMusic:true,				//显示在线后台音乐
-	supportPY:true,				//是否支持拼音输入
-	showPackageList:true,			//显示套餐列表
-	showXiamiMusic:true,		//是否显示在线音乐
-	showChineseChannel:true,		//是否显中国频道
-	showDouban:true,			//是否显示豆瓣电台
-	supportLanguage:'',			//支持的语言类型
-	adAuto:true,			   //自动调时
-	subMoveType:'left',			//滚动字幕移动方式
-	hideProgramAuto:true,		//自动隐藏
-	shutdownTip:true,			//关机提示
+	
 	TZ:'GMT+8',				//时区
 	theme:'base',				//样式名称
 	index:'index',				//首页名称
@@ -62,6 +46,10 @@ var config = {
 	lockPassword:'0000',		//加锁密码
 	client:'',				//客户标识
 	liveURL:'/channel_resource/live/liveListNew.html',
+	ntpAddr:'time.windows.com',
+	timezone:'GMT+8',
+	weatherInfoURL:'http://192.168.1.243:8080/gyudi/js/weather_info.js',
+	
 }
 
 if(typeof(FILE)== 'object'){
