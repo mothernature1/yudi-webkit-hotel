@@ -305,6 +305,7 @@ var lang = {
 		centralAmerica:'Central America',
 		tip:'Add City',
 		weatherNotFound:'weather not found',
+		ref:'Refresh',
 	},
 	youtube:{
 		  mostViewed:"Most Viewed",

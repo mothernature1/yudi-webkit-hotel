@@ -23,6 +23,8 @@ var filmList = {
         {id:5,typeId:2,name:'Nias',playUrl:'http://172.10.10.10/vod/nias.mkv',image:'http://172.10.10.10/knj/movie/images/m2.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
         {id:6,typeId:2,name:'Prambanan',playUrl:'http://172.10.10.10/vod/prambanan.mkv',image:'http://172.10.10.10/knj/movie/images/m2.png',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
 		{id:7,typeId:2,name:'Prambanan',playUrl:'http://123.202.122.30/103.mkv',image:'',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+		{id:8,typeId:2,name:'Sam',playUrl:'http://flv-origin.alarab.net//flv/34849.flv?start=0',image:'',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
+		{id:9,typeId:2,name:'fire_demo',playUrl:'http://192.168.1.20:8080/Movie/mp4/lab2.mp4',image:'',actors:"Stalone,Statham",director:"Nolan",region:"Indonesia",introduction:"Sinopsis",mode:4},
 	]
 }
 var category,film;

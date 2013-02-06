@@ -52,6 +52,9 @@ KEY.KEY_VCR = function(){ //停止
 	return false;
 }
 
+KEY.KEY_STOP = function(){
+	history.go(-1);
+}
 
 
 
