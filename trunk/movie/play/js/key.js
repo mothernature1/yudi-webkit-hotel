@@ -45,7 +45,8 @@ KEY.KEY_SLOW_PLAY = function(){ //慢进0x27
 }
 
 KEY.KEY_PLAY_STOP = function(){ //暂停
-	myPlayer.run('pause');
+	myPlayer.run('seek');
+	//myPlayer.run('pause');
 }
 KEY.KEY_VCR = function(){ //停止
 	returnFun();
