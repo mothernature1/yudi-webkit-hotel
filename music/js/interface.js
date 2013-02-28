@@ -14,9 +14,9 @@ function initData(){
 		for(var j = 1;j<i*9;j++){
 			var muisc = {
 				
-				list:[{name:"111",path:"http://f1.xiami.net/14805/443139/02%201770233876_2335824.mp3"},
-					  {name:"222",path:"http://f3.xiami.net/46527/266818/07%203294923_147675.mp3"},
-					  {name:"3333",path:"http://f1.xiami.net/23419/321418/02%203575904_379226.mp3"}] ,
+				list:[{name:"111",path:"http://169.254.42.250/mod/jean.mp3"},
+					  {name:"222",path:"http://169.254.42.250/mod/bad.mp3"},
+					  {name:"3333",path:"http://169.254.42.250/mod/heal.mp3"}] ,
 				image:"/channel_resource/program/image/1334225583390.jpeg",
 				name:'tv'+i+'_'+j,
 				id:j,
