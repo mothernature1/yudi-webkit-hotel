@@ -2,14 +2,15 @@ var typeList = {
 		type:
 		[
 		{name:'LOKAL TV', id:1},
+		{name:'LOKAL TV222', id:2},
 		]
 }
 
 var chList = {
 	ch:[
 		{id:1,typeId:1,name:'CH 1',url:'udp://225.1.1.1:1234',image:'images/transtv.png'},
-		{id:2,typeId:1,name:'CH 2',url:'udp://225.1.1.2:1234',image:'images/rcti.png'},
-		{id:3,typeId:1,name:'CH 3',url:'udp://225.1.1.3:1234',image:'images/sctv.png'},
+		{id:2,typeId:2,name:'CH 2',url:'udp://225.1.1.2:1234',image:'images/rcti.png'},
+		{id:3,typeId:2,name:'CH 3',url:'udp://225.1.1.3:1234',image:'images/sctv.png'},
 		{id:4,typeId:1,name:'CH 4',url:'udp://225.1.1.4:1234',image:'images/tvri.png'},
 		{id:5,typeId:1,name:'CH 5',url:'udp://225.1.1.5:1234',image:'images/sctv.png'},
 		{id:6,typeId:1,name:'CH 6',url:'udp://225.1.1.6:1234',image:'images/sctv.png'},
