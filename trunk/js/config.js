@@ -1,6 +1,6 @@
 var config = {
 	//webUrl:"http://stb.ipmacro.com:8080/",  //网络验证地址	
-    ebUrl:"http://172.10.10.15/knj/",
+    WebUrl:"http://192.168.0.10/knj/",
 	webUrlBackup:false,
 	configPath:"/usr/data/stb.conf",  
 	sysPath:"/usr/data/sys.conf",
