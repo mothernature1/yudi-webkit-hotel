@@ -24,7 +24,7 @@ $(function(){
 		if(data.tar == 'setting'){
 			$.Location('/yudiHotel/setting/index.html');
 		}else{
-			if(data.tar == 'tv' || data.tar =='movie'|| data.tar =='radio'|| data.tar =='music'|| data.tar =='weather' || data.tar=='signage'){
+			if(data.tar == 'tv' || data.tar =='movie'|| data.tar =='radio'|| data.tar =='music'|| data.tar =='weather' || data.tar=='signage' || data.tar=='digitalSignage'){
 			$.go(config.project+'/'+data.url,data.url);
 		}
 			
