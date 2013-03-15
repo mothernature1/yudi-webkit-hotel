@@ -1,0 +1,77 @@
+#main .tip{
+	position:absolute;
+	left:84px;
+	top:71px;
+	background:url(../images/spain/main_menu.png);width:237px;height:58px;
+}
+
+/*#main .main-menu{width:640px;margin:0 auto;}*/
+#main .main-menu{width:540px;margin:0 auto;}
+#main .main-menu{padding-top:56px;clear:both;overflow:hidden;margin-bottom:20px; padding:52px 15px 0;}
+#main .main-menu li{float:left;width:170px;height:173px;list-style:none;margin:0 -10px 10px 0;position:relative;}
+#main .main-menu li img{width:124px;height:124px;display:block;margin:24px 24px 0 23px;}
+#main .main-menu li .menu-title{text-align:center; font-family:"微软雅黑"; margin-top:8px; font-size:24px;}
+
+#main .main-menu li a{
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	text-indent:-999em;
+	width:170px;
+	height:173px;
+}
+#main .main-menu li a .hover{
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:170px;
+	height:173px;
+	background:url(../images/spain/on_bg.png) no-repeat center -5px transparent;
+	opacity:0;
+}
+
+.kong_main{ float:left; margin-left:32px; margin-top:20px;}
+.kong_main_left{}
+.kong_main .daoshi_box{}
+.kong_main .daoshi_box a{ display:block; width:720px; height:576px; color:#fff; font-size:30px; text-align:center; line-height:370px; background:#000; }
+.kong_main .daoshi_box a:focus{ box-shadow:0 0 10px green;box-shadow:0 0 20px 6px #0bb0ff;border-radius:8px;}
+.kong_main .daoshi_box img{ width:100%; height:373px;border-radius:8px; }
+.kong_main .ztgg_box{ padding-top:10px;}
+.kong_main .ztgg_box a{ margin-right:11px;width:318px; height:115px; display:inline-block;}
+.kong_main .ztgg_box a:focus{ box-shadow:0 0 10px green;box-shadow:0 0 20px 6px #0bb0ff;border-radius:8px;}
+.kong_main .ztgg_box img{border-radius:8px; width:100%; height:115px;}
+.kong_main_right{ position:absolute; left:970px; top:150px; }
+.hotBox{position:absolute;left:0px;top:0px;width:268px;}
+._latticeBox{ width:268px;}
+._latticeBox .tr { width:268px;}
+._latticeBox .tr > div {float: left;width: 268px;height: 118px;padding: 5px;position: relative;float: left;}
+._latticeBox .tr>div.td14{background:url(../plug/lattice/images/p2ph_bg04.png) no-repeat;}
+._latticeBox .tr .tleft .img1 {
+
+width: 100%;
+height: 100%;
+
+}
+
+._navBox {width: 200px;height: 468px;position: relative;}
+
+.date{	width:376px;position:absolute; top:70px; left:930px;}
+.date .wea{	float:left;	width:64px; }
+.date .wea img{ position:inherit; width:64px; height:64px; margin:-5px 0 0 -10px; }
+.date .hm{font-size:42px;margin-right:10px;	width:109px;height:53px;line-height:53px;float:left;color:#000;}
+.date .hm span{background:url(../images/kong/time_bg.png) no-repeat 0 0;  width:53px;height:53px;text-align:center;display:inline-block;}
+.date .hm span.hours{background-position:0 0;margin-right:3px;}
+.date .hm span.minute{background-position:-56px 0;}
+.date .ymd{font-family:'Microsoft Yahei';	font-size:16px; display:inline-block; padding-top:10px;}
+.date .nl{font-family:'Microsoft Yahei';font-size:16px; padding-left:55px; padding-top:3px;  display:inline-block;}
+.date .w{font-family:'Microsoft Yahei';color:#e14a00;	padding:0px 0 1px;  position:absolute; left:186px; top:31px; }
+
+.date .time{ position:absolute; font-size:40px; left:65px; top:6px; font-family:Arial, Helvetica, sans-serif;}
+.date img{ position:absolute; width:64px; height:64px;left:0px; top:0px;}
+.date .temperature{ position:absolute; left:183px; width:150px; top:12px; color:#ED371C; font-size:14px;}
+.date .city{ position:absolute; left:180px; font-size:18px; top:27px; width:110px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden; }
+
+#shutDownWindow {top: 483px;}
+#pagewrap .btnBox { position:absolute;left:560px;top:95px;height: 100px;width: 300px;}

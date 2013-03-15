@@ -130,6 +130,8 @@ var lang = {
 		Speed:'Speed Test',
 		errorRegion:'This channel can not play in this area',
 		message:'Message',
+		signage:'Signage',
+		signageDis:'Digital Signage',
 	},
 	movie:{
 		area:'Region',
