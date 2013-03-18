@@ -32,28 +32,20 @@
 	opacity:0;
 }
 
-.kong_main{ float:left; margin-left:32px; margin-top:20px;}
+.kong_main{ float:left; margin-left:45px; margin-top:35px;}
 .kong_main_left{}
 .kong_main .daoshi_box{}
 .kong_main .daoshi_box a{ display:block; width:720px; height:576px; color:#fff; font-size:30px; text-align:center; line-height:370px; background:#000; }
 .kong_main .daoshi_box a:focus{ box-shadow:0 0 10px green;box-shadow:0 0 20px 6px #0bb0ff;border-radius:8px;}
 .kong_main .daoshi_box img{ width:100%; height:373px;border-radius:8px; }
-.kong_main .ztgg_box{ padding-top:10px;}
+.kong_main .ztgg_box{ position:absolute;  bottom:38px; left:45px; display:block; background:url(../../images/play/bg.png); height:47px; line-height:47px; width:1182px; font-size:20px;}
 .kong_main .ztgg_box a{ margin-right:11px;width:318px; height:115px; display:inline-block;}
 .kong_main .ztgg_box a:focus{ box-shadow:0 0 10px green;box-shadow:0 0 20px 6px #0bb0ff;border-radius:8px;}
 .kong_main .ztgg_box img{border-radius:8px; width:100%; height:115px;}
-.kong_main_right{ position:absolute; left:970px; top:150px; }
-.hotBox{position:absolute;left:0px;top:0px;width:268px;}
-._latticeBox{ width:268px;}
-._latticeBox .tr { width:268px;}
-._latticeBox .tr > div {float: left;width: 268px;height: 118px;padding: 5px;position: relative;float: left;}
-._latticeBox .tr>div.td14{background:url(../plug/lattice/images/p2ph_bg04.png) no-repeat;}
-._latticeBox .tr .tleft .img1 {
-
-width: 100%;
-height: 100%;
-
-}
+.kong_main_right{ position:absolute; left:785px; top:35px; }
+.hotBox{position:absolute;left:0px;top:0px;width:440px;}
+.hotBox a{ width:440px; height:180px; display:block; padding-bottom:18px}
+.hotBox a img{ width:440px; height:180px;}
 
 ._navBox {width: 200px;height: 468px;position: relative;}
 
