@@ -64,8 +64,8 @@ $(function(){
 
 
 function gotoPlayPage(data,typeId,itemId){
-
-	$.setSession('dataList',$.toJSON(data.list));
+	$.log("$.toJSON(data.list):"+$.toJSON(data));
+	$.setSession('dataList',$.toJSON(data.playList));
 	$.gotoPage('play/index.html');
 	
 

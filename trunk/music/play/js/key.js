@@ -42,13 +42,11 @@ KEY.KEY_DOWN = KEY.KEY_SLOW_PLAY;
 KEY.KEY_PLAY_STOP = function(){ //暂停
 	$.log(myPlayer.state);
 	if(myPlayer.state  == 'pause'){
-
+		$('#playBox').removeClass('pause').addClass('play');
 		IMPlayer.Resume();
-		$('#playBtn').removeClass('pause').addClass('start');
 	}else if(myPlayer.state  == 'play'){
+		$('#playBox').removeClass('play').addClass('pause');
 		IMPlayer.Pause();
-
-		$('#playBtn').removeClass('start').addClass('pause');
 	}
 }
 KEY.KEY_STOP = function(){ //停止
