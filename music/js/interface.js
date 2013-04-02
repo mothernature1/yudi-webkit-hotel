@@ -17,14 +17,30 @@ var typeList = {
 
 var musiclist = {
 	judul:	[
-					{id:1,typeId:0,name:"Coba 1",path:"http://192.168.0.117/mod/jean.mp3",image:"images/pause.png"},
-					{id:2,typeId:1,name:"Coba 2",path:"http://192.168.0.117/mod/bad.mp3",image:"images/pause.png"},
-					{id:3,typeId:1,name:"Coba 2",path:"http://192.168.0.117/mod/bad.mp3",image:"images/pause.png"},
-					{id:4,typeId:1,name:"Coba 2",path:"http://192.168.0.117/mod/bad.mp3",image:"images/pause.png"},
-					{id:5,typeId:2,name:"Coba 3",path:"http://192.168.0.117/mod/heal.mp3",image:"images/pause.png"},
+					{id:1,typeId:0,name:"Coba 1",image:"images/pause.png",
+						playList:[{name:"song 1",path:"http://192.168.1.99:8080/music/1.mp3"},
+								{name:"song 2",path:"http://192.168.1.99:8080/music/2.mp3"},
+								{name:"song 3",path:"http://192.168.1.99:8080/music/3.mp3"}]},
+					{id:2,typeId:1,name:"Coba 2",image:"images/pause.png",
+						playList:[{name:"song 4",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 5",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 6",path:"http://192.168.1.99:8080/music/jean.mp3"}]},
+					{id:3,typeId:1,name:"Coba 3",image:"images/pause.png",
+						playList:[{name:"song 7",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 8",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 9",path:"http://192.168.1.99:8080/music/jean.mp3"}]},
+					{id:4,typeId:1,name:"Coba 4",image:"images/pause.png",
+						playList:[{name:"song 10",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 11",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 12",path:"http://192.168.1.99:8080/music/jean.mp3"}]},
+					{id:5,typeId:2,name:"Coba 5",image:"images/pause.png",
+						playList:[{name:"song 13",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 14",path:"http://192.168.1.99:8080/music/jean.mp3"},
+								{name:"song 15",path:"http://192.168.1.99:8080/music/jean.mp3"}]},
 			]
 
 }
+
 
 var category,music;
 
