@@ -85,7 +85,10 @@
 
 .navBox .navTop .navTip{position:absolute;left:0px;top:9px;background: url(../../images/base/nav_tip.png) no-repeat left bottom;height:26px;width:560px;padding-left:70px;}
 
-.navBox .list{width:1210px;left:30px;top:46px;position:absolute;z-index:5;}
+.navBox .list{width:1210px;left:30px;top:46px;position:absolute;z-index:5; height:150px;overflow:hidden; display:block; }
+
+.navBox .list_con{ position:absolute; left:0px; list-style:}
+
 
 .navBox .list a{display:block;height:150px;float:left;width:172px;text-align:center;color:#fff;font-size:24px;}
 

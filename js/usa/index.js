@@ -14,11 +14,10 @@ $(function(){
 		con +='<a href="#" id="nav-a-'+j+'"><img src="'+data.image+'"/><p>'+data.name+'</p> </a>';
 	}
 	
-	$('#listBox').html(con);
+	$('#listBox .list_con').html(con);
 	$('#listBox a').click(function(e) {
-        var idArr = this.id.split('-');
-		var id = parseInt(idArr[2]);
-		var data = dataList[id - 1];
+		
+		var data = dataList[$(this).index()];
 		var l = $(this).position().left+26;
 		
 		if(data.tar == 'setting'){
@@ -34,15 +33,20 @@ $(function(){
 		var idArr = this.id.split('-');
 		var id = parseInt(idArr[2]);
 		var data = dataList[id - 1];
-		
 		lastFocusId = id;
+		var list_left=parseInt($("#listBox .list_con").css("left"));
+		var a_length=$("#listBox a").length;
 		
-        var l = $(this).position().left+26;
+		var l = $(this).position().left+26+list_left;		
+	
 		var l2 = l -26;
 		$('#selBox').show();
 		
 		$('#selBox').css('left',l); 
 		$('#navTip').css('left',l2).html('+&nbsp;'+data.disName);
+		$.log(id)
+		
+		
     }).blur(function(e) {
        
     });
