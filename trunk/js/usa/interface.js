@@ -10,6 +10,8 @@ function initData(callback){
 	list.push({name:lang.index.Weather,tar:'weather',disName:lang.index.Weather,url:'weather/index.html',image:'images/base/weather-logo.png'});
 	list.push({name:lang.index.file,tar:'signage',disName:lang.index.filesDis,url:'demo/ds/index.html',image:'images/base/local-logo.png'});
 	list.push({name:lang.index.setting,tar:'setting',disName:lang.index.settingsDis,url:'setting/index.html',image:'images/base/setting_logo.png'});
+	list.push({name:lang.index.setting,tar:'setting',disName:lang.index.settingsDis,url:'setting/index.html',image:'images/base/setting_logo.png'});
+	list.push({name:lang.index.setting,tar:'setting',disName:lang.index.settingsDis,url:'setting/index.html',image:'images/base/setting_logo.png'});
 	
 	return list;
 }
